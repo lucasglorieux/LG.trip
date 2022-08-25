@@ -33,18 +33,18 @@ const Navbar = () => {
                     Destinations
                 </Link>
             </li>
-            <li className='hover:scale-110 duration-600 cursor-pointer'>
-                <Link  to="search" smooth={true} offset={50} duration={500}>
+            <li className='hover:scale-110 duration-500 cursor-pointer'>
+                <Link  to="search" smooth={true} offset={50} duration={700}>
                     Réserver
                 </Link>
             </li>
-            <li className='hover:scale-110 duration-750 cursor-pointer'>
-                <Link  to="choose" smooth={true} offset={50} duration={500}>
+            <li className='hover:scale-110 duration-500 cursor-pointer'>
+                <Link  to="choose" smooth={true} offset={50} duration={800}>
                     Voyages
                 </Link>
                 </li>
-            <li className='hover:scale-110 duration-1000 cursor-pointer'>
-                <Link  to="carousel" smooth={true} offset={50} duration={500}>
+            <li className='hover:scale-110 duration-500 cursor-pointer'>
+                <Link  to="carousel" smooth={true} offset={50} duration={1000}>
                 Gallerie
                 </Link>
             </li>
