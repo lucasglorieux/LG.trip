@@ -52,7 +52,7 @@ const Carrousel = () => {
     />
         {slideImage.map((item, index) =>(
             <div className={index === slide ? 'opacity-100' : 'opacity-0'}>
-                {index === slide && (<img className='w-full rounded-md' src={item.url} alt="/" />)}
+                {index === slide && (<img className='w-full rounded-md' src={item.url} loading='eager' alt="/" />)}
             </div>
         ))}
     </div>
